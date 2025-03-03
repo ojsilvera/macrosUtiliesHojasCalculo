@@ -54,3 +54,21 @@
 `
 
 [Fuente]([https://](https://www.youtube.com/watch?v=3soatT0SGhI&ab_channel=MiltonJMorales))
+
+## Listas desplegables auto-Actualizables
+
+- Origen de datos en la misma hoja
+
+    El rango que contiene los elemento de la lista desplegable, lo convertimos en una tabla.
+    Con la tabla anteriormente creada vamos a validacion de datos y seleccionamos la lista de elementos de los que se
+    conformara la lista
+    si agregamos un nuevo elemento a la tabla, la lista desplegable se actualizara automaticamente
+
+- Origen de datos en una hoja diferente
+
+    Seleccionamos los elementos que van a componer la lista y le asignamos un nombre de rango
+    Nos ubicamos en la celda que alojara nuestra lista desplegable
+    Vamos a validadicon de datos en la pestaña Datos
+    Escogemos lista y acto seguido presionamos F3, esto nos mostrara la lista de rangos disponibles
+    Seleccionamos el rango que hemos creado con los elementos de la lista
+    Al agrgar un nuevo elemento la lista se actualizara automaticamente

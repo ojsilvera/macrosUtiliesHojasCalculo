@@ -2,7 +2,7 @@
 
 ## Generar hojas de un listado
 
-- Deebe tener la pestaña de programado activada
+- Debe tener la pestaña de programado activada
 - esta macro funciona desde vba
 - el listad de nombres debe iniciar en la celda A1
 
@@ -33,6 +33,11 @@
 [Fuente]([https://](https://youtu.be/kuR44uyi_V8?si=bf9VFir7GgZWrMCp))
 
 ## Generar hojas de un listado con un solo click
+
+- Debe tener la pestaña de programado activada.
+- esta macro funciona desde vba.
+- posee una ventana para seleccionar los nombres de las hojas, el rango puede estar ubicacdo en cualquier lugar de la
+  hoja activa.
 
 `
     Sub crear_varias_hojas()

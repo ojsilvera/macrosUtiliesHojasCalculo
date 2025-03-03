@@ -6,7 +6,7 @@
 - esta macro funciona desde vba
 - el listad de nombres debe iniciar en la celda A1
 
-    `
+    ```visual basic
         Sub Generar_Hojas()
         'SE DEBE TENER EN LA COLUMNA A DESDE LA CELDA A1 EL NOMBRE DE LAS HOJAS A CREAR
         Dim c1 As Integer
@@ -28,7 +28,7 @@
         d = c1 - 1
         MsgBox Prompt:="USTED HA CREADO " & d & " HOJAS", Title:="¡FELICITACIONES!"
         End Sub
-    `
+    ```
 
 [Fuente]([https://](https://youtu.be/kuR44uyi_V8?si=bf9VFir7GgZWrMCp))
 
@@ -39,7 +39,7 @@
 - posee una ventana para seleccionar los nombres de las hojas, el rango puede estar ubicacdo en cualquier lugar de la
   hoja activa.
 
-    `
+    ```visual basic
         Sub crear_varias_hojas()
         Dim lista As Range
         Dim ix As Long
@@ -51,7 +51,7 @@
         Sheets(1).Select
         Application.ScreenUpdating = True
         End Sub
-    `
+    ```
 
 [Fuente]([https://](https://www.youtube.com/watch?v=3soatT0SGhI&ab_channel=MiltonJMorales))
 

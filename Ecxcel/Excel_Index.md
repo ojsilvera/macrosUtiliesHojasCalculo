@@ -29,3 +29,23 @@
     MsgBox Prompt:="USTED HA CREADO " & d & " HOJAS", Title:="¡FELICITACIONES!"
     End Sub
 `
+
+[Fuente]([https://](https://youtu.be/kuR44uyi_V8?si=bf9VFir7GgZWrMCp))
+
+## Generar hojas de un listado con un solo click
+
+`
+    Sub crear_varias_hojas()
+    Dim lista As Range
+    Dim ix As Long
+    Set lista = Application.InputBox(prompt:="Seleccione el nombre para las hojas", Title:="nombres para cada hoja", Type:=8)
+    Application.ScreenUpdating = False
+    For ix = lista.Count To 1 Step -1
+    Sheets.Add.Name = lista(ix)
+    Next ix
+    Sheets(1).Select
+    Application.ScreenUpdating = True
+    End Sub
+`
+
+[Fuente]([https://](https://www.youtube.com/watch?v=3soatT0SGhI&ab_channel=MiltonJMorales))
